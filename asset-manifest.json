@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/music-reports-dev-test/static/css/main.e6c13ad2.css",
+    "main.js": "/music-reports-dev-test/static/js/main.937d57de.js",
+    "index.html": "/music-reports-dev-test/index.html",
+    "main.e6c13ad2.css.map": "/music-reports-dev-test/static/css/main.e6c13ad2.css.map",
+    "main.937d57de.js.map": "/music-reports-dev-test/static/js/main.937d57de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.937d57de.js"
+  ]
+}
