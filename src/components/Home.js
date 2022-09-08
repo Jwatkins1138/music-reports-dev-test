@@ -10,7 +10,7 @@ const Home = () => {
   const key = '784d1371b6825e063a825dae7e0d84db'
 
   const fetchData = () => {
-    const ARTIST_URL = `/2.0/?method=chart.gettopartists&api_key=${key}&format=json&limit=200`;
+    const ARTIST_URL = `/2.0/?method=chart.gettopartists&api_key=${key}&format=json&limit=200/`;
     last.get(ARTIST_URL)
     .then((res) => {
       setData(res.data.artists.artist);
