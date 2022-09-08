@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: aquamarine;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  padding: 1em;
+  cursor: default;
+  color: white;
+}
+
+.nav-link:hover {
+  background: aquamarine;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+
+.search-area {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+label {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+table {
+ margin: 1em;
+ border-collapse: collapse;
+ border: 1px solid black;
+}
+
+tr, td {
+  border: .5px solid black;
+  padding: .25em;
+}
+
+.about {
+  align-items: center;
+  justify-content: center;
+}
+
+.about-card {
+  margin: 5em;
+  padding: 1em;
+  border-bottom: 1px solid rgb(0, 0, 0, .3);
+  border-right: 1px solid rgb(0, 0, 0, .3);
+}
