@@ -5,7 +5,7 @@ import { last } from '../api/axios'
 const Home = () => {
   const { context, setContext } = useContext(SearchContext);
   const [data, setData] = useState([]);
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState(context.searchOne);
 
   const key = '784d1371b6825e063a825dae7e0d84db'
 
